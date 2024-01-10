@@ -1,0 +1,37 @@
+name: notes_by_pauleen
+description: A new Flutter project.
+publish_to: "none" 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  build_runner: ^2.1.11
+  freezed: ^2.0.4
+  cupertino_icons: ^1.0.2
+  hive_flutter: ^1.1.0
+  flutter_bloc: ^7.2.0
+  json_annotation: ^4.4.0
+  json_serializable: 6.1.6
+  freezed_annotation: ^2.0.2
+  hive_generator: ^1.1.3
+  fluttertoast: ^8.2.4
+  flutter_launcher_icons: ^0.9.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  image_path: "icon/icon.png" 
+  android: true
+  ios: true
+  remove_alpha_ios: true
+ 
